@@ -12,3 +12,4 @@ C:\temp\projetos\C# - Curso\CadastroDeFuncionarioUtilizandoList\CadastroDeFuncio
 C:\temp\projetos\C# - Curso\CadastroDeFuncionarioUtilizandoList\CadastroDeFuncionario\CadastroDeFuncionario\obj\Debug\net8.0\CadastroDeFuncionario.pdb
 C:\temp\projetos\C# - Curso\CadastroDeFuncionarioUtilizandoList\CadastroDeFuncionario\CadastroDeFuncionario\obj\Debug\net8.0\CadastroDeFuncionario.genruntimeconfig.cache
 C:\temp\projetos\C# - Curso\CadastroDeFuncionarioUtilizandoList\CadastroDeFuncionario\CadastroDeFuncionario\obj\Debug\net8.0\ref\CadastroDeFuncionario.dll
+C:\temp\projetos\C# - Curso\CadastroDeFuncionarioUtilizandoList\CadastroDeFuncionario\CadastroDeFuncionario\obj\Debug\net8.0\CadastroDeFuncionario.sourcelink.json

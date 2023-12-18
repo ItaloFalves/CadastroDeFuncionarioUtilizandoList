@@ -35,18 +35,29 @@ namespace CadastroDeFuncionario
             Console.Write("Entre com o ID do funcionario cujo vai acrescentar aumento: ");
             int id = int.Parse(Console.ReadLine());
 
-            Console.WriteLine();
-            Console.Write("Entre com a porcentagem de aumento: ");
-            double porc = double.Parse(Console.ReadLine());
+            Funcionario emp = funcionarios.Find(x => x.Id == id);
 
-            funcionarios.Find(x => x.Id == id).AumentoSalario(porc);
-            Console.WriteLine();
+            if (emp != null)
+            {
+                Console.WriteLine();
+                Console.Write("Entre com a porcentagem de aumento: ");
+                double porc = double.Parse(Console.ReadLine());
+                emp.AumentoSalario(porc);
+            }
+            else
+            {
+                Console.WriteLine("Esse funcionário não existe! ");
+                Console.WriteLine();
+            }
+
+            Console.WriteLine("Lista de funcionários atualizados: ");
 
             foreach (Funcionario funcionario in funcionarios)
             {
                 Console.WriteLine(funcionario);
             }
 
+            Console.ReadLine();
         }
     }
 }
